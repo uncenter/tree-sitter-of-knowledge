@@ -10,6 +10,19 @@ A collection of references, tips, and resources for working with and using Tree-
 - [Homepage](https://tree-sitter.github.io/tree-sitter/)
 - [Playground](https://tree-sitter.github.io/tree-sitter/playground)
 
+- [TS Questions](https://github.com/sogaiu/ts-questions/) - some tree-sitter-related questions with discussions and some answers.
+  * [What Paths are Relevant for `tree-sitter` Use?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-paths-are-relevant/README.md)
+  * [What Files Are Involved in `tree-sitter generate`?](https://github.com/sogaiu/ts-questions/blob/master/questions/generate-subcommand-files/README.md)
+  * [Should Generated Parser Source Be Committed?](https://github.com/sogaiu/ts-questions/blob/master/questions/should-parser-source-be-committed/README.md)
+  * [What ABI Version Should Be Used for `parser.c`?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-abi-level-should-be-used/README.md)
+  * [Are External Scanners Commonly Used?](https://github.com/sogaiu/ts-questions/blob/master/questions/are-external-scanners-common/README.md)
+  * [What Regular Expression Features Are Supported?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-regex-features-are-supported/README.md)
+  * [Which Version of Emscripten Should be Used for the Playground?](https://github.com/sogaiu/ts-questions/blob/master/questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
+  * [How Can a Custom Playground Be Hosted?](https://github.com/sogaiu/ts-questions/blob/master/questions/how-can-a-custom-playground-be-hosted/README.md)
+  * [How Can One Test for An Expected Error?](https://github.com/sogaiu/ts-questions/blob/master/questions/how-to-test-for-an-expected-error/README.md)
+  * [Is There Some Way to Influence Error Recovery?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-some-way-to-influence-error-recovery/README.md)
+  * [Is There A Changelog?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-a-changelog/README.md)
+
 ### Editor Captures
 
 - Documentation?: https://tree-sitter.github.io/tree-sitter/syntax-highlighting#theme
