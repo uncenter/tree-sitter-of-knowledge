@@ -63,8 +63,8 @@ A collection of references, tips, and resources for working with and using Tree-
 
 | Editor | Standard query precedence order | Standard injection captures | Language-scoped captures | Inheritable/extendable queries |
 | --- | --- | --- | --- | --- |
-| Zed | ✅ | 🚫<sup>[1](https://github.com/zed-industries/zed/issues/9656)</sup> | 🚫<sup>[1](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)</sup> | 🚫<sup>[1](https://github.com/zed-industries/zed/issues/8795)[2](https://github.com/zed-industries/zed/issues/16861)</sup> |
-| Helix | 🚫 | ✅ | ✅ | ✅ |
+| Zed | ✅ | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9656)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/8795) [2](https://github.com/zed-industries/zed/issues/16861)</sup> |
+| Helix | 🚫 <sup>[1](https://github.com/helix-editor/helix/issues/9436) [2](https://github.com/uncenter/tree-sitter-query-reverser)</sup> | ✅ | ✅ | ✅ |
 
 #### Old
 
