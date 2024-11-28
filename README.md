@@ -26,7 +26,7 @@ A collection of references, tips, and resources for working with and using Tree-
 
 - The `:tree-sitter-scopes` command displays a tooltip over the cursor with an array of node names, in order of the AST's depth (e.g. `["program", "expression_statement", ...]`).
 - The `:tree-sitter-highlight-name` command displays a tooltip over the cursor with the name of the currently active capture.
-- TODO: `:tree-sitter-subtree`.
+- The `:tree-sitter-subtree` command displays a tooltip over the selection containing the smallest possible subtree that covers all selected nodes.
 
 #### Neovim
 
