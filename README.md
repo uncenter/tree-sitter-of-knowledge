@@ -22,6 +22,22 @@ A collection of references, tips, and resources for working with and using Tree-
   * [How Can One Test for An Expected Error?](https://github.com/sogaiu/ts-questions/blob/master/questions/how-to-test-for-an-expected-error/README.md)
   * [Is There Some Way to Influence Error Recovery?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-some-way-to-influence-error-recovery/README.md)
   * [Is There A Changelog?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-a-changelog/README.md)
+- [Tips and tricks for a grammar author](https://github.com/tree-sitter/tree-sitter/wiki/Tips-and-Tricks-for-a-grammar-author)
+  - Reducing state count
+  - External scanner building & debugging
+    - When/how to use mark_end
+- [Grammar Development for Semantic Code](https://github.com/github/semantic/blob/main/docs/grammar-development-guide.md)
+  - Rely on Language Specs, but not too much
+  - Study and test with other language parsers
+  - Think through use-cases for parse trees
+  - Know when to parse invalid syntax
+  - What does a "good" parse tree look like?
+  - Improving a parse tree
+  - Making your tree compact: knowing when to inline vs. hide vs. remove a rule
+  - Test in the wild to prioritize what's next
+  - Sequence your work
+  - Handling conflicts
+  - Debugging errors
 
 ### Editor Captures
 
