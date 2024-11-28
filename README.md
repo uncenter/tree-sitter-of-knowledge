@@ -42,36 +42,38 @@ A collection of references, tips, and resources for working with and using Tree-
 
 ### Articles
 
-### Stats
+TODO
 
-- Editors using Tree-sitter: TBD
-- Available grammars: TBD
+### Editors using Tree-sitter (6)
 
-### Editors using Tree-sitter
+- [Visual Studio Code support for Tree-sitter?](https://github.com/microsoft/vscode/issues/50140)
 
-#### Active
+#### Active (5)
 
-- [Pulsar](https://pulsar-edit.dev/) (fork of Atom - see below)
-- [Helix](https://helix-editor.com/)
 - [Neovim](https://neovim.io/)
   - See also [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
+- [Helix](https://helix-editor.com/)
 - [Zed](https://zed.dev/)
 - [Emacs](https://www.gnu.org/software/emacs/)* (as of [2022/11/22](https://lists.gnu.org/archive/html/emacs-devel/2022-11/msg01443.html), or Emacs 29+)
   - See also [emacs-tree-sitter](https://emacs-tree-sitter.github.io/).
+- [Pulsar](https://pulsar-edit.dev/) (fork of Atom - see below)
 
 ##### Compatibility/Status
 
 | Editor | Standard query precedence order | Standard injection captures | Language-scoped captures | Inheritable/extendable queries |
 | --- | --- | --- | --- | --- |
-| Zed | ✅ | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9656)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/8795) [2](https://github.com/zed-industries/zed/issues/16861)</sup> |
+| Neovim | ✅ | ✅ | ✅ | ✅ |
 | Helix | 🚫 <sup>[1](https://github.com/helix-editor/helix/issues/9436) [2](https://github.com/uncenter/tree-sitter-query-reverser)</sup> | ✅ | ✅ | ✅ |
+| Zed | ✅ | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9656)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/8795) [2](https://github.com/zed-industries/zed/issues/16861)</sup> |
+| Emacs | ? | ? | ? | ? |
+| Pulsar | ? | ? | ? | ? |
 
-#### Old
+#### Old (1)
 
 - [Atom](https://atom-editor.cc)
   - Sunset notice: https://github.blog/news-insights/product-news/sunsetting-atom/
   - Evidence: https://flight-manual.atom-editor.cc/hacking-atom/sections/creating-a-grammar/
 
-### Projects using Tree-sitter (besides editors)
+### Non-editor projects using Tree-sitter
 
 - [topiary](https://topiary.tweag.io/): formatting tool utilizing Tree-sitter; can use Tree-sitter queries to match nodes to certain defined capture types, such as `@prepend_space`, `@delete`, `@allow_blank_line_before`, etc.
