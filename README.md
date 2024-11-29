@@ -106,3 +106,4 @@ TODO
 ### Non-editor projects using Tree-sitter
 
 - [topiary](https://topiary.tweag.io/): formatting tool utilizing Tree-sitter; can use Tree-sitter queries to match nodes to certain defined capture types, such as `@prepend_space`, `@delete`, `@allow_blank_line_before`, etc.
+- [ast-grep](https://ast-grep.github.io/): a fast and polyglot tool for code structural search, lint, rewriting at large scale.
