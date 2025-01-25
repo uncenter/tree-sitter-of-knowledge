@@ -11,17 +11,17 @@ A collection of references, tips, and resources for working with and using Tree-
 - [Playground](https://tree-sitter.github.io/tree-sitter/playground)
 
 - [TS Questions](https://github.com/sogaiu/ts-questions/) - some tree-sitter-related questions with discussions and some answers.
-  * [What Paths are Relevant for `tree-sitter` Use?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-paths-are-relevant/README.md)
-  * [What Files Are Involved in `tree-sitter generate`?](https://github.com/sogaiu/ts-questions/blob/master/questions/generate-subcommand-files/README.md)
-  * [Should Generated Parser Source Be Committed?](https://github.com/sogaiu/ts-questions/blob/master/questions/should-parser-source-be-committed/README.md)
-  * [What ABI Version Should Be Used for `parser.c`?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-abi-level-should-be-used/README.md)
-  * [Are External Scanners Commonly Used?](https://github.com/sogaiu/ts-questions/blob/master/questions/are-external-scanners-common/README.md)
-  * [What Regular Expression Features Are Supported?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-regex-features-are-supported/README.md)
-  * [Which Version of Emscripten Should be Used for the Playground?](https://github.com/sogaiu/ts-questions/blob/master/questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
-  * [How Can a Custom Playground Be Hosted?](https://github.com/sogaiu/ts-questions/blob/master/questions/how-can-a-custom-playground-be-hosted/README.md)
-  * [How Can One Test for An Expected Error?](https://github.com/sogaiu/ts-questions/blob/master/questions/how-to-test-for-an-expected-error/README.md)
-  * [Is There Some Way to Influence Error Recovery?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-some-way-to-influence-error-recovery/README.md)
-  * [Is There A Changelog?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-a-changelog/README.md)
+  - [What Paths are Relevant for `tree-sitter` Use?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-paths-are-relevant/README.md)
+  - [What Files Are Involved in `tree-sitter generate`?](https://github.com/sogaiu/ts-questions/blob/master/questions/generate-subcommand-files/README.md)
+  - [Should Generated Parser Source Be Committed?](https://github.com/sogaiu/ts-questions/blob/master/questions/should-parser-source-be-committed/README.md)
+  - [What ABI Version Should Be Used for `parser.c`?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-abi-level-should-be-used/README.md)
+  - [Are External Scanners Commonly Used?](https://github.com/sogaiu/ts-questions/blob/master/questions/are-external-scanners-common/README.md)
+  - [What Regular Expression Features Are Supported?](https://github.com/sogaiu/ts-questions/blob/master/questions/what-regex-features-are-supported/README.md)
+  - [Which Version of Emscripten Should be Used for the Playground?](https://github.com/sogaiu/ts-questions/blob/master/questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
+  - [How Can a Custom Playground Be Hosted?](https://github.com/sogaiu/ts-questions/blob/master/questions/how-can-a-custom-playground-be-hosted/README.md)
+  - [How Can One Test for An Expected Error?](https://github.com/sogaiu/ts-questions/blob/master/questions/how-to-test-for-an-expected-error/README.md)
+  - [Is There Some Way to Influence Error Recovery?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-some-way-to-influence-error-recovery/README.md)
+  - [Is There A Changelog?](https://github.com/sogaiu/ts-questions/blob/master/questions/is-there-a-changelog/README.md)
 - [Tips and tricks for a grammar author](https://github.com/tree-sitter/tree-sitter/wiki/Tips-and-Tricks-for-a-grammar-author)
   - Reducing state count
   - External scanner building & debugging
@@ -83,19 +83,19 @@ TODO
   - See also [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
 - [Helix](https://helix-editor.com/)
 - [Zed](https://zed.dev/)
-- [Emacs](https://www.gnu.org/software/emacs/)* (as of [2022/11/22](https://lists.gnu.org/archive/html/emacs-devel/2022-11/msg01443.html), or Emacs 29+)
+- [Emacs](https://www.gnu.org/software/emacs/)\* (as of [2022/11/22](https://lists.gnu.org/archive/html/emacs-devel/2022-11/msg01443.html), or Emacs 29+)
   - See also [emacs-tree-sitter](https://emacs-tree-sitter.github.io/).
 - [Pulsar](https://pulsar-edit.dev/) (fork of Atom - see below)
 
 ##### Compatibility/Status
 
-| Editor | Standard query precedence order | Standard injection captures | Language-scoped captures | Inheritable/extendable queries |
-| --- | --- | --- | --- | --- |
-| Neovim | ✅ | ✅ | ✅ | ✅ |
-| Helix | 🚫 <sup>[1](https://github.com/helix-editor/helix/issues/9436) [2](https://github.com/uncenter/tree-sitter-query-reverser)</sup> | ✅ | ✅ | ✅ |
-| Zed | ✅ | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9656)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/8795) [2](https://github.com/zed-industries/zed/issues/16861)</sup> |
-| Emacs | ? | ? | ? | ? |
-| Pulsar | ? | ? | ? | ? |
+| Editor | Standard query precedence order                                                                                                  | Standard injection captures                                          | Language-scoped captures                                                                     | Inheritable/extendable queries                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Neovim | ✅                                                                                                                               | ✅                                                                   | ✅                                                                                           | ✅                                                                                                                           |
+| Helix  | 🚫 <sup>[1](https://github.com/helix-editor/helix/issues/9436) [2](https://github.com/uncenter/tree-sitter-query-reverser)</sup> | ✅                                                                   | ✅                                                                                           | ✅                                                                                                                           |
+| Zed    | ✅                                                                                                                               | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9656)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/8795) [2](https://github.com/zed-industries/zed/issues/16861)</sup> |
+| Emacs  | ?                                                                                                                                | ?                                                                    | ?                                                                                            | ?                                                                                                                            |
+| Pulsar | ?                                                                                                                                | ?                                                                    | ?                                                                                            | ?                                                                                                                            |
 
 #### Old (1)
 
