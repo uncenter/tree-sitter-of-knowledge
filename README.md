@@ -89,13 +89,13 @@ TODO
 
 ##### Compatibility/Status
 
-| Editor | Standard query precedence order                                                                                                  | Standard injection captures                                          | Language-scoped captures                                                                     | Inheritable/extendable queries                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Neovim | ✅                                                                                                                               | ✅                                                                   | ✅                                                                                           | ✅                                                                                                                           |
-| Helix  | 🚫 <sup>[1](https://github.com/helix-editor/helix/issues/9436) [2](https://github.com/uncenter/tree-sitter-query-reverser)</sup> | ✅                                                                   | ✅                                                                                           | ✅                                                                                                                           |
-| Zed    | ✅                                                                                                                               | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9656)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)</sup> | 🚫 <sup>[1](https://github.com/zed-industries/zed/issues/8795) [2](https://github.com/zed-industries/zed/issues/16861)</sup> |
-| Emacs  | ?                                                                                                                                | ?                                                                    | ?                                                                                            | ?                                                                                                                            |
-| Pulsar | ?                                                                                                                                | ?                                                                    | ?                                                                                            | ?                                                                                                                            |
+| Editor | Standard query precedence order | Language-scoped captures | Inheritable/extendable queries |
+| ------ | ------------------------------- | ------------------------ | ------------------------------ |
+| Neovim | ✅                              | ✅                       | ✅                             |
+| Helix  | 🚫 [^1][^2]                     | ✅                       | ✅                             |
+| Zed    | ✅                              | 🚫 [^3]                  | 🚫 [^4][^5]                    |
+| Emacs  | ?                               | ?                        | ?                              |
+| Pulsar | ?                               | ?                        | ?                              |
 
 #### Old (1)
 
@@ -107,3 +107,9 @@ TODO
 
 - [topiary](https://topiary.tweag.io/): formatting tool utilizing Tree-sitter; can use Tree-sitter queries to match nodes to certain defined capture types, such as `@prepend_space`, `@delete`, `@allow_blank_line_before`, etc.
 - [ast-grep](https://ast-grep.github.io/): a fast and polyglot tool for code structural search, lint, rewriting at large scale.
+
+[^1]: [Reverse tree-sitter query precedence ordering · Issue #9436 · helix-editor/helix](https://github.com/helix-editor/helix/issues/9436)
+[^2]: [uncenter/tree-sitter-query-reverser: ⏪ Literally reverse the order of Tree-sitter queries to better work with Helix.](https://github.com/uncenter/tree-sitter-query-reverser)
+[^3]: [Support more syntax tokens for theme configuration · Issue #9461 · zed-industries/zed](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)
+[^4]: [merge registered language with existing language, so languages can be extended · Issue #8795 · zed-industries/zed](https://github.com/zed-industries/zed/issues/8795)
+[^5]: [Extension API for extending language queries · Issue #16861 · zed-industries/zed](https://github.com/zed-industries/zed/issues/16861)
