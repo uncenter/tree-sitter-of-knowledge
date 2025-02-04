@@ -93,7 +93,7 @@ TODO
 | ------ | ------------------------------- | ------------------------ | ------------------------------ |
 | Neovim | ✅                              | ✅                       | ✅                             |
 | Helix  | 🚫 [^1][^2]                     | ✅                       | ✅                             |
-| Zed    | ✅                              | 🚫 [^3]                  | 🚫 [^4][^5]                    |
+| Zed    | ✅                              | 🚫 [^3]                  | 🚫 [^4]                        |
 | Emacs  | ?                               | ?                        | ?                              |
 | Pulsar | ?                               | ?                        | ?                              |
 
@@ -112,4 +112,3 @@ TODO
 [^2]: [uncenter/tree-sitter-query-reverser: ⏪ Literally reverse the order of Tree-sitter queries to better work with Helix.](https://github.com/uncenter/tree-sitter-query-reverser)
 [^3]: [Support more syntax tokens for theme configuration · Issue #9461 · zed-industries/zed](https://github.com/zed-industries/zed/issues/9461#issuecomment-2480340039)
 [^4]: [merge registered language with existing language, so languages can be extended · Issue #8795 · zed-industries/zed](https://github.com/zed-industries/zed/issues/8795)
-[^5]: [Extension API for extending language queries · Issue #16861 · zed-industries/zed](https://github.com/zed-industries/zed/issues/16861)
