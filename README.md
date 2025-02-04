@@ -2,9 +2,6 @@
 
 A collection of references, tips, and resources for working with and using Tree-sitter.
 
-> [!WARNING]
-> Spell it as Tree-sitter! Not treesitter, not tree sitter, not Tree Sitter, though I will accept tree-sitter. This is your first, only, and final warning!!!
-
 ## References & Resources
 
 - [Homepage](https://tree-sitter.github.io/tree-sitter/)
